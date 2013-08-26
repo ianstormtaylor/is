@@ -20,7 +20,7 @@ is.function(function(){}); // true
 is.null(null);             // true
 is.number(42);             // true
 is.object({});             // true
-is.regexp(/a/g);           // true
+is.regexp(/[A-Za-z0-9]+/); // true
 is.string('A');            // true
 is.undefined(undefined);   // true
 ```
