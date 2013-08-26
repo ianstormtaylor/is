@@ -1,6 +1,6 @@
 # is
   
-  Simply type checking.
+  Simple type checking.
 
 ## Installation
 
