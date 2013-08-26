@@ -10,9 +10,10 @@
 
 ```
 var is = require('is');
-is.array([]);                              // true
-is.object({});                             // true
-is.element(document.createElement('div')); // true
+is.array([]);              // true
+is.object({});             // true
+is.number(42);             // true
+is.element(document.body); // true
 ```
 
 ## API
