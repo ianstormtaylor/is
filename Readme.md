@@ -8,7 +8,7 @@
 
 ## Example
 
-```
+```js
 var is = require('is');
 is.array([]);              // true
 is.object({});             // true
