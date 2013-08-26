@@ -10,26 +10,20 @@
 
 ```js
 var is = require('is');
+
+is.arguments(arguments);   // true
 is.array([]);              // true
-is.object({});             // true
-is.number(42);             // true
+is.boolean(true);          // true
+is.date(new Date);         // true
 is.element(document.body); // true
+is.function(function(){}); // true
+is.null(null);             // true
+is.number(42);             // true
+is.object({});             // true
+is.regexp(/a/g);           // true
+is.string('A');            // true
+is.undefined(undefined);   // true
 ```
-
-## API
-
-### is.arguments(val)
-### is.array(val)
-### is.boolean(val)
-### is.date(val)
-### is.element(val)
-### is.function(val)
-### is.null(val)
-### is.number(val)
-### is.object(val)
-### is.regexp(val)
-### is.string(val)
-### is.undefined(val)
 
 ## License
 
