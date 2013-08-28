@@ -14,8 +14,24 @@ var types = {
   number: 42,
   regexp: /a/,
   string: '',
-  undefined: undefined
+  undefined: undefined,
+  empty: []
 };
+
+var emptyObjects = [
+  [],
+  {},
+  null,
+  "",
+  0
+];
+
+var notEmptyObjets = [
+  [1,2],
+  {test: "test"},
+  "test",
+  12542
+];
 
 for (var type in types) {
   var value = types[type];
@@ -24,6 +40,20 @@ for (var type in types) {
     for (var t in types) {
       if (t !== type) assert(!is[t](value));
     }
+  });
+}
+
+for (var iObj in emptyObjects ) {
+  var value = emptyObjects[iObj];
+  it('.empty', function () {
+    assert(is["empty"](value));
+  });
+}
+
+for (var iObj in notEmptyObjets ) {
+  var value = notEmptyObjets[iObj];
+  it('.empty', function () {
+    assert(!is["empty"](value));
   });
 }
 
