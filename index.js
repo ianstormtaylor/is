@@ -18,7 +18,8 @@ var types = [
   'object',
   'regexp',
   'string',
-  'undefined'
+  'undefined',
+  'empty'
 ];
 
 
@@ -40,7 +41,23 @@ for (var i = 0, type; type = types[i]; i++) exports[type] = generate(type);
  */
 
 function generate (type) {
-  return function (value) {
-    return type === typeOf(value);
-  };
+  if( type != "empty" ) {
+    return function (value) {
+      return type === typeOf(value);
+    };
+  } else {
+    return function(value) {
+      if( obj == null ) return true;
+      if( obj.length && obj.length > 0 ) return false;
+      if( obj.length === 0 ) return true;
+
+      for( var key in obj ) {
+          if( hasOwnProperty.call(obj, key) ) return false;
+      }
+
+      if( value === "" ) return true;
+
+      return true;
+    }
+  }
 }
