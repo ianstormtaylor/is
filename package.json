@@ -1,0 +1,11 @@
+{
+  "name": "is",
+  "version": "0.0.4",
+  "license": "MIT",
+  "description": "Simple type checking.",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": "git://github.com/ianstormtaylor/is.git",
+  "main": "index.js"
+}
