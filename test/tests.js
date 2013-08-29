@@ -28,6 +28,10 @@ for (var type in types) {
   });
 }
 
+it('.fn', function () {
+  assert(is.fn == is.function);
+});
+
 it('.empty', function () {
   assert(is.empty == isEmpty);
 });
