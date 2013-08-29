@@ -1,3 +1,7 @@
+0.0.4 - August 29, 2013
+-----------------------
+* add `nan` check
+
 0.0.3 - August 29, 2013
 -----------------------
 * add `fn` alias for old browsers

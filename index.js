@@ -48,6 +48,15 @@ exports.empty = isEmpty;
 
 
 /**
+ * Expose `nan` check.
+ */
+
+exports.nan = function (val) {
+  return exports.number(val) && val != val;
+};
+
+
+/**
  * Generate a type checker.
  *
  * @param {String} type

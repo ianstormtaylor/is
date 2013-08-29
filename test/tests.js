@@ -36,4 +36,11 @@ it('.empty', function () {
   assert(is.empty == isEmpty);
 });
 
+it('.nan', function () {
+  assert(!is.nan(42));
+  assert(!is.nan(null));
+  assert(!is.nan(undefined));
+  assert(is.nan(NaN));
+});
+
 });
