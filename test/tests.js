@@ -1,7 +1,8 @@
 describe('is', function () {
 
 var assert = require('assert')
-  , is = require('is');
+  , is = require('is')
+  , isEmpty = require('is-empty');
 
 var types = {
   arguments: arguments,
@@ -26,5 +27,9 @@ for (var type in types) {
     }
   });
 }
+
+it('.empty', function () {
+  assert(is.empty == isEmpty);
+});
 
 });

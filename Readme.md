@@ -23,6 +23,7 @@ is.object({});             // true
 is.regexp(/[A-Za-z0-9]+/); // true
 is.string('A');            // true
 is.undefined(undefined);   // true
+is.empty([]);              // true
 ```
 
 ## License

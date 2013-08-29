@@ -2,11 +2,12 @@
   "name": "is",
   "repo": "ianstormtaylor/is",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple type checking.",
   "keywords": ["type", "is"],
   "dependencies": {
-    "component/type": "*"
+    "component/type": "*",
+    "ianstormtaylor/is-empty": "*"
   },
   "development": {
     "component/assert": "*"

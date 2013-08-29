@@ -1,5 +1,6 @@
 
-var typeOf = require('type');
+var isEmpty = require('is-empty')
+  , typeOf = require('type');
 
 
 /**
@@ -30,6 +31,13 @@ var types = [
  */
 
 for (var i = 0, type; type = types[i]; i++) exports[type] = generate(type);
+
+
+/**
+ * Expose `empty` check.
+ */
+
+exports.empty = isEmpty;
 
 
 /**
