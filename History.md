@@ -1,3 +1,7 @@
+0.0.5 - August 30, 2013
+-----------------------
+* reference `function` by bracket notation not dot notation for old browsers
+
 0.0.4 - August 29, 2013
 -----------------------
 * add `nan` check
