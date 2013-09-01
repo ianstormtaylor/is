@@ -27,7 +27,7 @@ is.undefined(undefined);   // true
 is.empty([]);              // true
 ```
 
-_Note: If you need old browser support, us `.fn` instead of `.function`._
+_Note: If you need old browser support, use `.fn` instead of `.function`._
 
 ## License
 
