@@ -5,6 +5,7 @@
 ## Installation
 
     $ component install ianstormtaylor/is
+    $ npm install ianstormtaylor/is
 
 ## Example
 

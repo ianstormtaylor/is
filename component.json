@@ -2,7 +2,7 @@
   "name": "is",
   "repo": "ianstormtaylor/is",
   "license": "MIT",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "Simple type checking.",
   "keywords": ["type", "is"],
   "dependencies": {

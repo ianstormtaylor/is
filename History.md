@@ -1,3 +1,7 @@
+0.1.0 - October 7, 2013
+-----------------------
+* packaged for npm
+
 0.0.5 - August 30, 2013
 -----------------------
 * reference `function` by bracket notation not dot notation for old browsers

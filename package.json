@@ -1,0 +1,12 @@
+{
+  "name": "is",
+  "repository": "git://github.com/ianstormtaylor/is.git",
+  "license": "MIT",
+  "version": "0.1.0",
+  "description": "Simple type checking.",
+  "keywords": ["type", "is"],
+  "dependencies": {
+    "type": "component/type",
+    "is-empty": "0.0.1"
+  }
+}
