@@ -1,12 +1,24 @@
 {
-  "name": "is",
-  "repository": "git://github.com/ianstormtaylor/is.git",
+  "name": "component-is",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ianstormtaylor/is.git"
+  },
   "license": "MIT",
   "version": "0.1.0",
   "description": "Simple type checking.",
-  "keywords": ["type", "is"],
+  "keywords": [
+    "type",
+    "is"
+  ],
   "dependencies": {
-    "type": "component/type",
-    "is-empty": "0.0.1"
-  }
+    "is-empty": "0.0.1",
+    "component-type": "~1.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/ianstormtaylor/is/issues"
+  },
+  "homepage": "https://github.com/ianstormtaylor/is",
+  "main": "index.js",
+  "author": "Ian Storm Taylor"
 }
