@@ -15,6 +15,9 @@
     "is-empty": "0.0.1",
     "component-type": "~1.0.0"
   },
+  "browser": {
+    "type": false
+  },
   "bugs": {
     "url": "https://github.com/ianstormtaylor/is/issues"
   },
