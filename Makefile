@@ -10,6 +10,7 @@ components: component.json
 
 node_modules: package.json
 	@npm install
+	@touch node_modules
 
 test: build
 	@open test/index.html

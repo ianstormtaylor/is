@@ -1,3 +1,8 @@
+
+0.1.1 - February 10, 2013
+-------------------------
+* pin `component-type` dep
+
 0.1.0 - October 7, 2013
 -----------------------
 * packaged for npm
