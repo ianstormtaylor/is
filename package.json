@@ -1,8 +1,8 @@
 {
-  "name": "is",
-  "repository": "git://github.com/ianstormtaylor/is.git",
+  "name": "@segment/is",
+  "repository": "git://github.com/segmentio/is.git",
   "license": "MIT",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Simple type checking.",
   "keywords": [
     "type",
