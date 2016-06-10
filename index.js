@@ -1,11 +1,6 @@
 
 var isEmpty = require('is-empty');
-
-try {
-  var typeOf = require('type');
-} catch (e) {
-  var typeOf = require('component-type');
-}
+var typeOf = require('component-type');
 
 
 /**
